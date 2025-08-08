@@ -61,6 +61,7 @@ src/
 - 💻 Sistema Operativo Windows, macOS o Linux
 - 📚 IntelliJ IDEA
 - ✅ Java SDK 24
+- ✅ Sprint Data JPA
 - ✅ Spring Boot
 - ✅ PostgreSQL
 - ✅ Jackson (manejo de JSON)
@@ -109,11 +110,8 @@ Año de publicación: 1605
 
 ```
 📌 Notas
-Las clases en dto reciben y transforman la información proveniente de la API.
-
-El paquete service contiene la lógica para consumir la API, transformar datos y gestionar persistencia.
-
-Se usa Spring Data JPA para las operaciones de base de datos, simplificando queries.
+## Licencia
+Este proyecto está bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.
 
 👤 Autor
 Desarrollado por William Jose Gallo Marquez
