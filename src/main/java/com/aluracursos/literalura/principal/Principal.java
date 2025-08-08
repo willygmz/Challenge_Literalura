@@ -36,6 +36,8 @@ public class Principal {
             System.out.println("🖋️ 3 - Listar autores registrados");
             System.out.println("🎂 4 - Listar autores vivos en un determinado año");
             System.out.println("🌐 5 - Listar libros por idioma(es/en)");
+            System.out.println("📊 6 - Listar 10 libros más descargados");
+            System.out.println("👤 7 - Buscar autor por nombre");
             System.out.println("🚪 0 - Salir");
             System.out.print("\nOpción: ");
 
@@ -63,6 +65,12 @@ public class Principal {
                 case 5:
                     buscarLibroPorIdioma();
                     break;
+                case 6:
+                    listar10LibrosMasDescargados();
+                    break;
+                case 7:
+                    buscarAutorPorNombre();
+                    break;
                 case 0:
                     System.out.println("Saliendo del programa...");
                     break;
@@ -73,6 +81,33 @@ public class Principal {
             System.out.println();
 
         } while (opcion != 0);
+    }
+
+    private void buscarAutorPorNombre() {
+        System.out.println("Ingrese el nombre del autor que desea buscar");
+        var nombreAutor = teclado.nextLine();
+        var autoresEncontrados = repositorio.autorPorNombre(nombreAutor.toLowerCase());
+        
+        if (autoresEncontrados.isEmpty()) {
+            System.out.println("Autor no encontrado");
+        } else {
+            System.out.println("Autores encontrados:");
+            for (Autor autor : autoresEncontrados) {
+                System.out.println(autor);
+            }
+        }
+    }
+
+
+    private void listar10LibrosMasDescargados() {
+        System.out.println("Top 10 libros más descargados");
+        var json = consumoApi.obtenerDatos(URL_BASE);
+        var datos = conversor.obtenerDatos(json,Datos.class);
+        datos.resultados().stream()
+                .sorted(Comparator.comparing(DatosLibros::numeroDeDescargas).reversed())
+                .limit(10)
+                .map(l -> l.titulo().toUpperCase())
+                .forEach(System.out::println);
     }
 
     private void buscarLibroPorIdioma() {

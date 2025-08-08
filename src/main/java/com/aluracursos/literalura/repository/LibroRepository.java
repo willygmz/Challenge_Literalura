@@ -16,5 +16,8 @@ public interface LibroRepository extends JpaRepository<Libro, Long> {
 
     List<Libro> findByTitulo(String titulo);
 
+    @Query("SELECT DISTINCT a FROM Libro l JOIN l.autor a WHERE LOWER(a.nombre) LIKE LOWER(CONCAT('%', :nombre, '%'))")
+    List<Autor> autorPorNombre(String nombre);
+
 
     }
