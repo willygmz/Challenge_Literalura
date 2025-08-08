@@ -1,3 +1,5 @@
+![image](https://github.com/willygmz/challenge-amigo-secreto/blob/dfb90fb1fa6603d9416614e61c7b59386a751ccc/assets/amigo-secreto.png)
+
 # 📚 LiterAlura
 
 Aplicación de consola desarrollada en **Java 24** con **Spring Boot**, orientada a la gestión y exploración de libros y autores. Permite interactuar con una base de datos de literatura a través de un menú intuitivo, desde el cual se pueden realizar búsquedas, listados, y más.
@@ -23,7 +25,6 @@ Elija la opción a través de su número:
 6 - Listar 10 libros más descargados
 7 - Buscar autor por nombre
 0 - Salir
-
 
 ---
 
@@ -52,9 +53,12 @@ src/
 └── application.properties
 
 
-## 🛠️ Tecnologías Usadas
+## 🛠️ ## 🛠️ Requisitos del Sistema y Tecnologías Usadas
 
-- ✅ Java 24
+- 🟢 Java Runtime Environment (JRE) 17 o superior
+- 💻 Sistema Operativo Windows, macOS o Linux
+- 📚 IntelliJ IDEA
+- ✅ Java SDK 24
 - ✅ Spring Boot
 - ✅ PostgreSQL
 - ✅ Jackson (manejo de JSON)
@@ -63,15 +67,12 @@ src/
 
 ---
 
-## 🔧 Configuración
+## 📦 Instalación y Configuracion
 
-1. **Clona el proyecto:**
-
-```bash
-git clone https://github.com/tu-usuario/literalura.git
-cd literalura
-
-```
+1. 📥 Descarga el archivo zip en tu computadora
+2. 🔍 Asegúrate de tener Java v24 instalado en tu sistema
+3. 💾 Descarga y actualiza el archivo Pom.xml
+4. 🚀 Abre y ejecuta el archivo con IntelliJ IDEA
 
 Configura la conexión a PostgreSQL:
 
