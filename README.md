@@ -1,4 +1,6 @@
-![image](https://github.com/willygmz/challenge-amigo-secreto/blob/dfb90fb1fa6603d9416614e61c7b59386a751ccc/assets/amigo-secreto.png)
+   <p align="left">
+   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+   </p>
 
 # 📚 LiterAlura
 
@@ -29,7 +31,7 @@ Elija la opción a través de su número:
 ---
 
 ## 🧱 Estructura del Proyecto
-
+```
 src/
 └── main/
 ├── java/
@@ -51,7 +53,7 @@ src/
 │ └── LiteraturaApplication.java # Clase main de Spring Boot
 └── resources/
 └── application.properties
-
+```
 
 ## 🛠️ ## 🛠️ Requisitos del Sistema y Tecnologías Usadas
 
@@ -77,7 +79,7 @@ src/
 Configura la conexión a PostgreSQL:
 
 Edita el archivo application.properties con tus datos:
-
+```
 properties
 Copiar
 Editar
@@ -87,17 +89,18 @@ spring.datasource.password=tu_contraseña
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 Ejecuta la aplicación:
-
+```
+```
 bash
 Copiar
 Editar
 ./mvnw spring-boot:run
 Interactúa desde consola:
 Verás el menú principal para consultar libros y autores.
-
+```
 🌐 Consumo de API
 La aplicación puede conectarse a una API pública (como Open Library) para obtener información de libros y autores y almacenarla en la base de datos.
-
+```
 🧪 Ejemplo de uso
 yaml
 Copiar
@@ -112,6 +115,8 @@ Título: Don Quijote
 Autor: Miguel de Cervantes
 Idioma: es
 Año de publicación: 1605
+
+```
 📌 Notas
 Las clases en dto reciben y transforman la información proveniente de la API.
 
@@ -120,7 +125,6 @@ El paquete service contiene la lógica para consumir la API, transformar datos y
 Se usa Spring Data JPA para las operaciones de base de datos, simplificando queries.
 
 👤 Autor
-Desarrollado por [Tu Nombre]
-📧 Contacto: tu.email@ejemplo.com
+Desarrollado por William Jose Gallo Marquez
 🎓 Proyecto educativo - Curso de Java + Spring de Alura
 
