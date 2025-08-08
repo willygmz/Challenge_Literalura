@@ -80,31 +80,22 @@ Configura la conexión a PostgreSQL:
 
 Edita el archivo application.properties con tus datos:
 ```
-properties
-Copiar
-Editar
 spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
-Ejecuta la aplicación:
+
 ```
-```
-bash
-Copiar
-Editar
-./mvnw spring-boot:run
-Interactúa desde consola:
+
 Verás el menú principal para consultar libros y autores.
-```
+
 🌐 Consumo de API
 La aplicación puede conectarse a una API pública (como Open Library) para obtener información de libros y autores y almacenarla en la base de datos.
-```
+
 🧪 Ejemplo de uso
-yaml
-Copiar
-Editar
+
+```
 Ingrese una opción:
 1
 Ingrese el título del libro:
