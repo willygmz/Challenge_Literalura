@@ -109,6 +109,10 @@ Idioma: es
 Año de publicación: 1605
 
 ```
+
+<img width="941" height="692" alt="idea64_bLwxRxoVoF" src="https://github.com/user-attachments/assets/3e6186d5-2e97-4f15-8c80-d35f4408b974" />
+
+
 📌 Notas
 ## Licencia
 Este proyecto está bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.
