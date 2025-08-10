@@ -110,7 +110,19 @@ Año de publicación: 1605
 
 ```
 
-<img width="941" height="692" alt="idea64_bLwxRxoVoF" src="https://github.com/user-attachments/assets/3e6186d5-2e97-4f15-8c80-d35f4408b974" />
+<img width="810" height="343" alt="idea64_q8w6NluMtt" src="https://github.com/user-attachments/assets/84781350-ab1b-4bc2-8240-48f11bbafcf8" />
+
+<img width="410" height="479" alt="idea64_DUC8UFxi2t" src="https://github.com/user-attachments/assets/28c19d2c-7665-47ef-9472-7f3643365877" />
+
+<img width="780" height="487" alt="idea64_c2HwQcPpU5" src="https://github.com/user-attachments/assets/5cce2649-66dc-4f3d-8750-2234c063c156" />
+
+<img width="709" height="452" alt="idea64_rV3dHIVS3d" src="https://github.com/user-attachments/assets/cdd680f4-8af2-4e3f-a1bb-c7e45fbc0ce5" />
+
+<img width="747" height="430" alt="idea64_6OVQrOpWxB" src="https://github.com/user-attachments/assets/27d4a474-f41d-4392-9dc4-6bd4095a688a" />
+
+<img width="692" height="388" alt="idea64_dBpoFxrHm4" src="https://github.com/user-attachments/assets/bfb15d85-1738-4e99-b0d6-ed7fd8737796" />
+
+<img width="1148" height="462" alt="idea64_0zCYoevsLF" src="https://github.com/user-attachments/assets/aa13b57c-395c-4318-bdf7-81ff5d740c6b" />
 
 
 📌 Notas
