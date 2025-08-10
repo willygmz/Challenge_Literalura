@@ -2,7 +2,7 @@
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
 
-# 📚 LiterAlura
+# 📚 Proyecto Java LiterAlura
 
 Aplicación de consola desarrollada en **Java 24** con **Spring Boot**, orientada a la gestión y exploración de libros y autores. Permite interactuar con una base de datos de literatura a través de un menú intuitivo, desde el cual se pueden realizar búsquedas, listados, y más.
 
